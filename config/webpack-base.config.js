@@ -7,7 +7,7 @@ const path = require('path')
 
 module.exports = new WebpackConfig().merge({
   entry: {
-    app: ['./src/app.jsx']
+    app: ['./src/app.js']
   },
   output: {
     path: path.resolve(__dirname, '../build'),
